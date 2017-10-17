@@ -24,14 +24,14 @@ go build main.go
 
 * Starting the server:
 ```
-/server --help
-Usage of ./server:
+/main --help
+Usage of ./main:
   -ip string
     	IP address to listen on (default "127.0.0.1")
   -port string
     	Port to listen on (default "8000")
 
-./server
+./main
 ```
 
 * Connecting to the server:
