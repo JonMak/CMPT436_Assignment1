@@ -22,6 +22,18 @@ The clients can:
 go build main.go
 ```
 
+## Server Commands:
+```
+---------------------------
+/list : list all rooms
+/create : create a new room
+/join : join a room
+/help : prints all available commands
+/leave : leave the current room
+/quit : quit
+---------------------------
+```
+
 ## Usage
 
 * Starting the server:
