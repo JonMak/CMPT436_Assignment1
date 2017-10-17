@@ -9,7 +9,7 @@ The clients can:
 2. List all existing rooms  
 3. Join existing chat rooms 
 4. Leave a chat room        
-5. Send messages
+5. Send messages to other clients
   
  Upon joining a chat room, all previous messages from that chat room will be displayed. Joining and Leaving chat rooms are
  announced inside the chat rooms.
