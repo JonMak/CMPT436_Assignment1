@@ -40,7 +40,7 @@ var roomList = map[string]*chatRoom{}
 
 // TCP server addresses and ports
 var flagIP = flag.String("ip", "127.0.0.1", "IP address to listen on")
-var flagPort = flag.String("port", "8181", "Port to listen on")
+var flagPort = flag.String("port", "8000", "Port to listen on")
 
 // Time layout to parse
 var customTime = "02/01/2006 15:04:05"
@@ -152,7 +152,7 @@ Loop:
 			panic(err)
 		}
 
-		if msg == "\\quit" {
+		if msg == "/quit" {
 			c.close()
 			log.Printf("%v has left..", c.Name)
 			break Loop
