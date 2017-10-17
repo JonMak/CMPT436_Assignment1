@@ -245,6 +245,13 @@ Throughout the source code, logs are outputted to the console to keep track of e
 2017/10/17 16:15:59 receive: client(127.0.0.1:49273) recvd msg: * c10 has joined! * 
 2017/10/17 16:15:59 receive: client(127.0.0.1:49283) recvd msg: * c10 has joined! * 
 2017/10/17 16:15:59 receive: client(127.0.0.1:49275) recvd msg: * c10 has joined! * 
+2017/10/17 16:21:53 leave: removing user c1 from room r0: current members: map[127.0.0.1:49265:0xc4200b6080 127.0.0.1:49281:0xc4200d8140]
+2017/10/17 16:21:53 c1 has left..
+2017/10/17 16:21:53 createroom: broadcasting msg in room: r0 to member: c2
+2017/10/17 16:21:53 createroom: broadcasting msg in room: r0 to member: c9
+2017/10/17 16:21:53 receive: client(127.0.0.1:49281) recvd msg: * c1 has left.. * 
+2017/10/17 16:21:53 receive: client(127.0.0.1:49265) recvd msg: * c1 has left.. * 
+2017/10/17 16:21:56 c8 has left..
 ```
 
 
