@@ -1,7 +1,9 @@
 # Assignment 1
 Multi-client/Multi-chatroom chat server
 
-A basic multi client, multiroom tcp chat server written in GO. Supports multiple room and multiple simultaneous connections. Uses telnet to connect client to the server.
+A basic multi client, multiroom tcp chat server written in GO. Supports multiple room and multiple concurrent clients. 
+
+Uses telnet to connect client to the server.
 
 The clients can:
 
