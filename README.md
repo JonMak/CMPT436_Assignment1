@@ -142,7 +142,7 @@ leaving Test3
 # Testing
 
 For testing I choose to do iterative testing throughout development. I wrote each piece and tested for compatibility. A final testing method I did was to check to see if 10 concurrent clients were able to complete the required tasks outlined in the assignment document.
-Throughout the source code, logs are kept to keep track of everything a client does so that bugs were easy to define.
+Throughout the source code, logs are outputted to the console to keep track of everything the server does so that bugs are easy to define and fix.
 
 #### Here is the server logs for testing 10 concurrent clients with sending/recieving messages, creating chat rooms, and leaving/joining chat rooms:
 ```
