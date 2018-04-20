@@ -1,5 +1,4 @@
-# Assignment 1
-Multi-client/Multi-chatroom chat server
+# Multi-client/Multi-chatroom chat server
 
 A basic multi client, multiroom tcp chat server written in GO. Supports multiple room and multiple concurrent clients. 
 
